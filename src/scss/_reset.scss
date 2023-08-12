@@ -1,0 +1,43 @@
+*,*::after,*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+/* Reset font styles */
+body,
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* Reset form elements */
+button,
+input,
+select,
+textarea {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+/* Reset list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Reset hyperlink styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
