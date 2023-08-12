@@ -1,8 +1,8 @@
-import { Logo } from "../../atoms/logo/Logo";
-import { Nav } from "../../atoms/nav/Nav";
+import  Logo  from "../../atoms/logo/Logo";
+import  Nav  from "../../atoms/nav/Nav";
 import "./Header.scss";
 
-export const Header = () => {
+const Header = () => {
   return (
     <header className="header">
       <Logo />
@@ -10,3 +10,5 @@ export const Header = () => {
     </header>
   )
 }
+
+export default Header;

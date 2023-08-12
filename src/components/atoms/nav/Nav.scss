@@ -22,12 +22,8 @@
     }
 
     .nav__btn {
-      background-image: url(/assets/shopping.png);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: contain;
-      width: 3.6875rem;
-      height: 3.6875rem;
+      margin-inline-start: 1.63rem;
+      padding: .69rem .75rem;
       border: none;
       border-radius: 50%;
       background-color: $white;

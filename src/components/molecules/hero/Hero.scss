@@ -1,0 +1,111 @@
+@import "../../../scss/variables";
+
+.section__hero {
+  background: $bgTopBlue;
+  padding-block-start: 15.44rem;
+  // padding-block-end: 5rem;
+  z-index: -1;
+  position: relative;
+
+  .hero__images__top {
+    position: relative;
+  }
+
+  .img__top-l {
+    position: absolute;
+    top: -3rem;
+    left: 0;
+    width: 11.97088rem;
+    height: 8.01113rem;
+    background: url(/assets/img-l-u.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transform: rotate(13deg);
+  }
+
+  .img__top-r {
+    position: absolute;
+    top: -4rem;
+    right: 0;
+    width: 11.97088rem;
+    height: 8.01113rem;
+    background: url(/assets/img-r-u.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transform: rotate(-13deg);
+  }
+
+  .hero__images__bottom {
+    position: relative;
+  }
+
+  .img__bottom-l {
+    position: absolute;
+    bottom: 9rem;
+    left: 4rem;
+    width: 10.2035rem;
+    height: 8.8615rem;
+    background: url(/assets/img-l-d.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transform: rotate(13deg);
+  }
+
+  .img__bottom-r {
+    position: absolute;
+    bottom: 13.5rem;
+    right: 4rem;
+    width: 10.2035rem;
+    height: 8.8615rem;
+    background: url(/assets/img-r-d.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transform: rotate(-13deg);
+  }
+
+  .hero__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.31rem;
+    color: $white;
+    text-align: center;
+    font-family: $mainFont;
+    margin-block-end: 6.31rem;
+
+    .hero__title {
+      font-size: 3.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .hero__subtitle {
+      font-size: 1.375rem;
+      font-weight: 600;
+    }
+  }
+
+  .hero__img__center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero__vector {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: url(/assets/vector.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    height: 12.6875rem;
+    width: 100%;
+  }
+}

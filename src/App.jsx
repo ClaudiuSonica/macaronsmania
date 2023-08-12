@@ -1,10 +1,12 @@
 import Header from "./components/molecules/header/Header";
+import Hero from "./components/molecules/hero/Hero";
 
 const App = () => {
   return (
     <div className="container">
       <Header />
-      <h1>heloo</h1>
+      <Hero />
+      <div className="vector"></div>
     </div>
   );
 }
