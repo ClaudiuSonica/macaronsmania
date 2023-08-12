@@ -1,9 +1,10 @@
-
+import Header from "./components/molecules/header/Header";
 
 const App = () => {
   return (
-    <div>
-      <h1>MacaronsMania</h1>
+    <div className="container">
+      <Header />
+      <h1>heloo</h1>
     </div>
   );
 }

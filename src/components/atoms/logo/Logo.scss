@@ -1,0 +1,23 @@
+@import "../../../scss/variables";
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__img {
+    padding: 1rem;
+    border: 1px solid $white;
+    border-radius: 50%;
+  }
+
+  &__title {
+    color: $white;
+    text-align: center;
+    font-family: $mainFont;
+    font-size: 1.875rem;
+    font-weight: 700;
+    line-height: 2.625rem;
+    text-transform: uppercase;
+  }
+}

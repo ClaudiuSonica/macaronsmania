@@ -1,0 +1,11 @@
+@import "../../../scss/variables";
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4.76563rem;
+  padding-inline: 4.75rem;
+
+  background-color: black;
+}

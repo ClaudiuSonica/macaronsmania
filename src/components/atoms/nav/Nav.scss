@@ -1,0 +1,38 @@
+@import "../../../scss/variables";
+
+.nav {
+  .nav__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3.82rem;
+
+    .nav__link {
+      color: $white;
+      text-align: center;
+      font-family: $secondaryFont;
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+
+    .nav__phone {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .nav__btn {
+      background-image: url(/assets/shopping.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      width: 3.6875rem;
+      height: 3.6875rem;
+      border: none;
+      border-radius: 50%;
+      background-color: $white;
+      fill: $white;
+      cursor: pointer;
+    }
+  }
+}
