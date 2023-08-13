@@ -2,7 +2,7 @@
 
 .section__menu {
   background: $bgTopPink;
-  padding-block: 15.44rem;
+  padding-block: 11.44rem;
   z-index: 0;
   position: relative;
   display: flex;
@@ -15,6 +15,19 @@
     top: 0;
     right: 0;
     background: url(/assets/vector-top.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    height: 12.6875rem;
+    width: 100%;
+  }
+
+  .gallery__vector {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: url(/assets/vector-bottom.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

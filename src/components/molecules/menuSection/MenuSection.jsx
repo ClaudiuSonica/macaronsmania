@@ -31,6 +31,7 @@ const MenuSection = () => {
       <div className="menu__dots">
         <img src={dots} alt="dots" />
       </div>
+      <div className="gallery__vector"></div>
     </section>
   );
 };
