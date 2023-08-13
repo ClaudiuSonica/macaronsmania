@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
-import "./MenuCard.scss";
+import "./MacaronsCard.scss";
 import heart from "/assets/heart.png";
 
-const MenuCard = (props) => {
+const MacaronsCard = (props) => {
   return (
     <div className="menu__card">
       <img className="card__heart" src={heart} alt="select favorite icon" />
@@ -18,4 +18,4 @@ const MenuCard = (props) => {
   );
 };
 
-export default MenuCard;
+export default MacaronsCard;

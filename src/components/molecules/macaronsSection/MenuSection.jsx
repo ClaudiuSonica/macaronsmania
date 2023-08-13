@@ -3,7 +3,7 @@ import data from "../../../data";
 import dots from "/assets/dots.svg";
 import arrowL from "/assets/arrow-l.svg";
 import arrowR from "/assets/arrow-r.svg";
-import MacaronsCard from "../../atoms/macaronsCard/MacaronsCard";
+import MenuCard from "../../atoms/macaronsCard/MenuCard";
 
 const MenuSection = () => {
   const { menu } = data;
@@ -17,7 +17,7 @@ const MenuSection = () => {
         <img className="cards__arrow" src={arrowL} alt="arrow" />
         {menu.items.map((item) => {
           return (
-            <MacaronsCard
+            <MenuCard
               key={item.id}
               title={item.title}
               price={item.price}

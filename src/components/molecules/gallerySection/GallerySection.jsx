@@ -1,0 +1,2 @@
+import "./GallerySection.scss";
+
