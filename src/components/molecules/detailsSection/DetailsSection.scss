@@ -22,4 +22,11 @@
     font-size: 1rem;
     margin-block-end: 4.69rem;
   }
+
+  .details__cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3.38rem;
+  }
 }
