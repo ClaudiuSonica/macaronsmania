@@ -1,12 +1,15 @@
 import Header from "./components/molecules/header/Header";
 import Hero from "./components/molecules/hero/Hero";
+import MainContent from "./components/organisms/mainContent/MainContent";
 
 const App = () => {
   return (
     <div className="container">
       <Header />
-      <Hero />
-      <div className="vector"></div>
+      <main>
+        <Hero />
+        <MainContent />
+      </main>
     </div>
   );
 }
