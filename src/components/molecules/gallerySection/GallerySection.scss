@@ -33,8 +33,7 @@
 
     &::after {
       content: "";
-      display: block;
-      width: 107rem;
+      width: 99rem;
       height: 6rem;
       background-color: $white;
       border-radius: 100%;
@@ -43,20 +42,21 @@
       left: 50%;
       transform: translateX(-50%);
       z-index: 1;
+      overflow-y: hidden;
     }
 
     &::before {
       content: "";
-      display: block;
-      width: 107rem;
+      width: 99rem;
       height: 6rem;
       background-color: $white;
       border-radius: 100%;
       position: absolute;
-      top: -1.5rem;
+      top: -1.8rem;
       left: 50%;
       transform: translate(-50%);
       z-index: 1;
+      overflow-y: hidden;
     }
   }
 }

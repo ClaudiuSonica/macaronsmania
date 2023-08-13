@@ -1,3 +1,4 @@
+import ContactSection from "../../molecules/contactSection/ContactSection";
 import DetailsSection from "../../molecules/detailsSection/DetailsSection";
 import GallerySection from "../../molecules/gallerySection/GallerySection";
 import MenuSection from "../../molecules/menuSection/MenuSection";
@@ -11,6 +12,7 @@ const MainContent = () => {
       <MenuSection />
       <GallerySection />
       <ShopSection />
+      <ContactSection />
     </>
   );
 };
