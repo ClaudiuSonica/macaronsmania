@@ -1,0 +1,73 @@
+@import "../../../scss/variables";
+
+@import "../../../scss/variables";
+
+.section__shop {
+  background: $bgTopPink;
+  padding-block: 11.44rem;
+  z-index: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .shop__vector {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(/assets/vector-top.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    height: 12.6875rem;
+    width: 100%;
+  }
+
+  .contact__vector {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: url(/assets/vector-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    height: 12.6875rem;
+    width: 100%;
+  }
+
+  .shop__title {
+    color: $white;
+    font-family: $mainFont;
+    font-size: 2.1875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-block-end: .94rem;
+  }
+
+  .shop__subtitle {
+    color: $gray;
+    text-align: center;
+    font-family: $secondaryFont;
+    font-size: 1rem;
+    margin-block-end: 4.69rem;  
+  }
+
+  .shop__cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3.98rem;
+    margin-block-end: 2.19rem;
+
+    .cards__arrow {
+      padding: .9rem;
+      border: none;
+      border-radius: 50%;
+      background-color: $white;
+      cursor: pointer;
+    }
+  }
+}
