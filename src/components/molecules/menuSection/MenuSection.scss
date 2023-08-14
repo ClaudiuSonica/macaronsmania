@@ -20,7 +20,11 @@
     background-size: cover;
     z-index: 1;
     height: 12.6875rem;
-    width: 100%;
+    width: 100vw;
+
+    img {
+      max-width: 100%;
+    }
   }
 
   .gallery__vector {
@@ -33,7 +37,11 @@
     background-size: cover;
     z-index: 1;
     height: 12.6875rem;
-    width: 100%;
+    width: 100vw;
+
+    img {
+      max-width: 100%;
+    }
   }
 
   .menu__title {
@@ -57,7 +65,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 3.98rem;
+    gap: 3rem;
     margin-block-end: 2.19rem;
 
     .cards__arrow {

@@ -16,7 +16,12 @@
     background-size: cover;
     z-index: 1;
     height: 12.6875rem;
-    width: 100%;
+    width: 100vw;
+
+    img {
+      max-width: 100%;
+    }
+    
   }
 
   .footer__socials {
