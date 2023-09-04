@@ -71,7 +71,7 @@ const data = {
   },
   sets: {
     title: "Macarons Sets",
-    subtitle: "Here you can get acquainted with our work",
+    subtitle: "Here you can find more about our promos!",
     items: [
       {
         id: 1,

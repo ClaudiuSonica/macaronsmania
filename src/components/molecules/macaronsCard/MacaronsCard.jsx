@@ -4,7 +4,7 @@ import heart from "/assets/heart.png";
 
 const MacaronsCard = (props) => {
   return (
-    <div className="menu__card">
+    <div className="card">
       <img className="card__heart" src={heart} alt="select favorite icon" />
       <div className="card__img">
         <img src={props.img} alt={props.title} />

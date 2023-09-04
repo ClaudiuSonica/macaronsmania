@@ -1,15 +1,23 @@
 @import "../../../scss/variables";
 
 .section__details {
+  @media (max-width: $md) {
+    margin-block-end: 2rem;
+  }
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 
   .details__title {
+    @media (max-width: $md) {
+      font-size: 1.5rem;
+    }
+
     color: $black;
     font-family: $mainFont;
-    font-size: 2.1875rem;
+    font-size: 2.2rem;
     font-weight: 600;
     text-transform: uppercase;
     margin-block-end: 1.06rem;
@@ -24,6 +32,11 @@
   }
 
   .details__cards {
+    @media (max-width: $md) {
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
     display: flex;
     align-items: center;
     justify-content: space-between;

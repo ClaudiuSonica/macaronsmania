@@ -1,8 +1,10 @@
 @import "../../../scss/variables";
 
-@import "../../../scss/variables";
-
 .section__shop {
+  @media (max-width: $md) {
+    padding-block: 9rem;
+  }
+
   background: $bgTopPink;
   padding-block: 11.44rem;
   z-index: 0;
@@ -22,7 +24,7 @@
     background-size: cover;
     z-index: 1;
     height: 12.6875rem;
-    width: 100vw;
+    width: 100%;
   }
 
   .contact__vector {
@@ -35,7 +37,7 @@
     background-size: cover;
     z-index: 1;
     height: 12.6875rem;
-    width: 100vw;
+    width: 100%;
 
     img {
       max-width: 100%;
@@ -43,15 +45,23 @@
   }
 
   .shop__title {
+    @media (max-width: $md) {
+      font-size: 1.5rem;
+    }
+
     color: $white;
     font-family: $mainFont;
-    font-size: 2.1875rem;
+    font-size: 2.2rem;
     font-weight: 600;
     text-transform: uppercase;
     margin-block-end: .94rem;
   }
 
   .shop__subtitle {
+    @media (max-width: $md) {
+      margin-block-end: 2rem;
+    }
+
     color: $gray;
     text-align: center;
     font-family: $secondaryFont;
@@ -60,6 +70,10 @@
   }
 
   .shop__cards {
+    @media (max-width: $md) {
+      flex-direction: column;
+    }
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -67,11 +81,21 @@
     margin-block-end: 2.19rem;
 
     .cards__arrow {
+      @media (max-width: $md) {
+        display: none;
+      }
+
       padding: .9rem;
       border: none;
       border-radius: 50%;
       background-color: $white;
       cursor: pointer;
+    }
+  }
+
+  .shop__dots {
+    @media (max-width: $md) {
+      display: none;
     }
   }
 }

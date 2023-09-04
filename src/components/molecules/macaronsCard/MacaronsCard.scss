@@ -1,13 +1,17 @@
 @import "../../../scss/variables";
 
-.menu__card {
+.card {
+  @media (max-width: $md) {
+    width: 100%;
+  }
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width: 22.71944rem;
+  width: 22.8rem;
   background-color: $white;
-  border-radius: 2.1875rem;
+  border-radius: 2.2rem;
 
   .card__heart {
     align-self: flex-end;
@@ -16,14 +20,23 @@
   }
 
   .card__img {
+    @media (max-width: $md) {
+      & img {
+        max-width: 100%;
+      }
+
+      padding-block-start: 0rem;
+      margin-block-end: 0rem;
+    }
+
     padding-inline: 4.24rem;
     padding-block-start: 2.64rem;
     margin-block-end: 1.19rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 15.54988rem;
-    height: 15.5625rem;
+    width: 15.5rem;
+    height: 15.5rem;
   }
 
   .card__title {
