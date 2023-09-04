@@ -1,0 +1,9 @@
+@import "../../../scss/variables";
+
+.nav__link {
+  color: $white;
+  text-align: center;
+  font-family: $secondaryFont;
+  font-size: 1.25rem;
+  font-weight: 600;
+}

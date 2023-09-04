@@ -1,31 +1,22 @@
 import "./Nav.scss";
 import phone from "/assets/phone.svg";
 import shopping from "/assets/shopping.png";
+import NavItem from "../../atoms/navItem/NavItem";
 
 const Nav = () => {
+  const items = [
+    "Home",
+    "About Us",
+    "Menu",
+    "Contact",
+  ]
+
   return (
     <nav className="nav">
       <ul className="nav__list">
-        <li className="nav__item">
-          <a className="nav__link" href="#">
-            Home
-          </a>
-        </li>
-        <li className="nav__item">
-          <a className="nav__link" href="#">
-            About Us
-          </a>
-        </li>
-        <li className="nav__item">
-          <a className="nav__link" href="#">
-            Menu
-          </a>
-        </li>
-        <li className="nav__item">
-          <a className="nav__link" href="#">
-            Contact{" "}
-          </a>
-        </li>
+        {items.map((item, i) => (
+          <NavItem key={i} link={item} />
+        ))}
         <li className="nav__item">
           <div className="nav__phone">
             <img className="phone__img" src={phone} alt="phone image" />

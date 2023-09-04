@@ -1,5 +1,5 @@
 import "./DetailsSection.scss";
-import DetailsCard from "../../atoms/detailsCard/DetailsCard";
+import DetailsCard from "../../molecules/detailsCard/DetailsCard";
 import data from "../../../data";
 
 const DetailsSection = () => {

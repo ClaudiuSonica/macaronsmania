@@ -1,8 +1,8 @@
-import ContactSection from "../../molecules/contactSection/ContactSection";
-import DetailsSection from "../../molecules/detailsSection/DetailsSection";
-import GallerySection from "../../molecules/gallerySection/GallerySection";
-import MenuSection from "../../molecules/menuSection/MenuSection";
-import ShopSection from "../../molecules/shopSection/ShopSection";
+import ContactSection from "../../organisms/contactSection/ContactSection";
+import DetailsSection from "../../organisms/detailsSection/DetailsSection";
+import GallerySection from "../../organisms/gallerySection/GallerySection";
+import MenuSection from "../../organisms/menuSection/MenuSection";
+import ShopSection from "../../organisms/shopSection/ShopSection";
 import "./MainContent.scss";
 
 const MainContent = () => {

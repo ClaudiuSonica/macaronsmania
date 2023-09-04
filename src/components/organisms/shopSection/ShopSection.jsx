@@ -1,6 +1,6 @@
 import "./ShopSection.scss";
 import data from "../../../data";
-import MacaronsCard from "../../atoms/macaronsCard/MacaronsCard";
+import MacaronsCard from "../../molecules/macaronsCard/MacaronsCard";
 import arrowL from "/assets/arrow-l.svg";
 import arrowR from "/assets/arrow-r.svg";
 import dots from "/assets/dots.svg"

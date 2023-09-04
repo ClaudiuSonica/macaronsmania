@@ -2,6 +2,10 @@
 
 .nav {
   .nav__list {
+    @media (max-width: $md) {
+      display: none;
+    }
+
     display: flex;
     align-items: center;
     justify-content: space-between;

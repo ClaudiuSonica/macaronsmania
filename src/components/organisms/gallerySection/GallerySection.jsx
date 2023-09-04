@@ -1,5 +1,5 @@
 import "./GallerySection.scss";
-import GalleryCard from "../../atoms/galleryCard/GalleryCard";
+import GalleryCard from "../../molecules/galleryCard/GalleryCard";
 import data from "../../../data";
 
 const GallerySection = () => {
