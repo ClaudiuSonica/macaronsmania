@@ -70,7 +70,7 @@
   }
 
   .shop__cards {
-    @media (max-width: $md) {
+    @media (max-width: $lg) {
       flex-direction: column;
     }
 
@@ -81,7 +81,7 @@
     margin-block-end: 2.19rem;
 
     .cards__arrow {
-      @media (max-width: $md) {
+      @media (max-width: $lg) {
         display: none;
       }
 

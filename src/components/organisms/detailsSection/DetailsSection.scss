@@ -32,9 +32,11 @@
   }
 
   .details__cards {
-    @media (max-width: $md) {
+    @media (max-width: $lg) {
       flex-direction: column;
       gap: 1.5rem;
+      align-items: flex-start;
+      justify-content: center;
     }
 
     display: flex;

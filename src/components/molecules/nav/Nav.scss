@@ -6,12 +6,20 @@
       display: none;
     }
 
+    @media (max-width: $lg) {
+      gap: 1rem;
+    }
+
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 3.82rem;
 
     .nav__link {
+      @media (max-width: $lg) {
+        font-size: .7rem;
+      }
+
       color: $white;
       text-align: center;
       font-family: $secondaryFont;
@@ -26,6 +34,11 @@
     }
 
     .nav__btn {
+      @media (max-width: $lg) {
+        margin-inline-start: 1rem;
+        padding: .29rem .45rem;
+      }
+
       margin-inline-start: 1.63rem;
       padding: .69rem .75rem;
       border: none;

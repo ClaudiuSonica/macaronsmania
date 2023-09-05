@@ -6,6 +6,12 @@
     margin-block-start: 0;
   }
 
+  @media (max-width: $md) {
+    .details__card:is(:not(:last-child)) {
+      margin-block-end: 1.5rem;
+    }
+  }
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,6 +32,7 @@
     align-items: flex-start;
     justify-content: center;
     gap: 0.44rem;
+    max-width: 100%;
 
     .info__title {
       @media (max-width: $md) {
@@ -41,6 +48,10 @@
     .info__text {
       @media (max-width: $md) {
         font-size: .7rem;
+      }
+
+      @media (max-width: $lg) {
+        max-width: 20rem;
       }
 
       color: $lightGray;

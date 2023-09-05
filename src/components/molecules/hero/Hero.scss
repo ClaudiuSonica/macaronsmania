@@ -1,7 +1,7 @@
 @import "../../../scss/variables";
 
 .section__hero {
-  @media (max-width: $md) {
+  @media (max-width: $lg) {
     padding-block-start: 6rem;
   }
 
@@ -11,7 +11,7 @@
   position: relative;
 
   .hero__images__top {
-    @media (max-width: $md) {
+    @media (max-width: $lg) {
       display: none;
     }
 
@@ -45,7 +45,7 @@
   }
 
   .hero__images__bottom {
-    @media (max-width: $md) {
+    @media (max-width: $lg) {
       display: none;
     }
 

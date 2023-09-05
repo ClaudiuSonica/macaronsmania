@@ -48,7 +48,7 @@
   }
 
   .footer__content {
-    @media (max-width: $md) {
+    @media (max-width: $lg) {
       flex-direction: column;
       gap: 1.5rem;
     }
@@ -58,7 +58,7 @@
     justify-content: space-between;
 
     .form {
-      @media (max-width: $md) {
+      @media (max-width: $lg) {
         gap: 2rem;
         padding-block-start: 1.5rem;
         margin-inline: auto;
@@ -91,7 +91,7 @@
         width: 100%;
 
         .form__input {
-          @media (max-width: $md) {
+          @media (max-width: $lg) {
             width: 100%;
           }
   
@@ -107,7 +107,7 @@
         }
   
         .form__btn {
-          @media (max-width: $md) {
+          @media (max-width: $lg) {
             width: 30%;
             padding-inline: 5%;
           }
@@ -141,7 +141,7 @@
     }
 
     .footer__row {
-      @media (max-width: $md) {
+      @media (max-width: $lg) {
         width: 100%;
         padding-block-end: 2rem;
       }

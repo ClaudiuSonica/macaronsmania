@@ -1,7 +1,7 @@
 @import "./scss/variables";
 
 section, header, footer {
-  @media (max-width: $md) {
+  @media (max-width: $lg) {
     padding-inline: 1rem;
   }
 
@@ -10,5 +10,4 @@ section, header, footer {
 
 body {
   height: 100vh;
-  // overflow-x: hidden;
 }
